@@ -1,6 +1,6 @@
 ﻿{
-	"name": "New project",
-	"short_name": "New project",
+	"name": "Teabags",
+	"short_name": "Teabags",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",

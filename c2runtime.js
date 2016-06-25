@@ -16705,9 +16705,9 @@ cr.behaviors.DragnDrop = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Mouse,
-	cr.plugins_.TiledBg,
 	cr.plugins_.Sprite,
 	cr.plugins_.Text,
+	cr.plugins_.TiledBg,
 	cr.behaviors.DragnDrop,
 	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
 	cr.system_object.prototype.acts.GoToLayout,
@@ -16731,7 +16731,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetTimescale,
 	cr.plugins_.Sprite.prototype.acts.SetVisible,
 	cr.plugins_.Text.prototype.acts.SetVisible,
-	cr.system_object.prototype.acts.Wait,
-	cr.system_object.prototype.acts.ResetGlobals
+	cr.system_object.prototype.acts.Wait
 ];};
 
